@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mreion</groupId>
+    <artifactId>maven</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>suite</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <maven.compiler.sourse>12</maven.compiler.sourse>
+        <maven.compile.target>12</maven.compile.target>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+        <url>http://www.opensourse.org/license/mit-license.ph</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+        <name>Nikolay Shevtsov</name>
+        <email>mollpromking@gmail.com</email>
+            <organization>com.github.NIKOLAYSI3</organization>
+            <organizationUrl>https://github.com/NIKOLAYSI3</organizationUrl>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>../core</module>
+        <module>../service</module>
+        <module>../console</module>
+    </modules>
+
+</project>
